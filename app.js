@@ -1,4 +1,5 @@
 //TASK 2 SAMPLE CODE
+
 console.log("Hello, World!");
 let name = "Alyssa Faye Quidangen";
 console.log("My name is " + name);
@@ -48,6 +49,12 @@ const favNumber2 = 2;
 const quotient = favNumber1 / favNumber2;
 console.log("The quotient of " + favNumber1 + " and " + favNumber2 + " is equal to " + quotient);
 // output: The quotient of 10000 and 2 is equal to 5000
+
+let randNumber1 = 125;
+let randNumber2 = 4;
+let modulus = randNumber1 % randNumber2;
+console.log("The remainder of " + randNumber1 + " and " + randNumber2 + " is " + modulus);
+//output: The remainder of 125 and 4 is 1
 
 //BOOLEANS
 let a = 5;
