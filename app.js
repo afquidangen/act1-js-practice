@@ -66,7 +66,32 @@ let isAbsent = false;
 console.log(isPresent); //output: true
 console.log(isAbsent); //output: false
 
-//OPERATORS
+//COMPARISON
+let c = 20;
+let d = 19;
+
+let isCGreaterThanD = c > d;
+let isCLessThanD = c < d;
+let isCEqualToD = c == d;
+let isCNotEqualToD = c !== d;
+let isCGreaterThanOrEqualToD = c >= d;
+let isCLessThanOrEqualToD = c <= d;
+
+console.log("Is C greater than D?", isCGreaterThanD);
+console.log("Is C less than D?", isCLessThanD);
+console.log("Is C equal to D?", isCEqualToD);
+console.log("Is C not equal to D?", isCNotEqualToD);
+console.log("Is C greater than or equal to D?", isCGreaterThanOrEqualToD);
+console.log("Is C less than or equal to D?", isCLessThanOrEqualToD);
+
+//output:
+//Is C greater than D? true
+//Is C less than D? false
+//Is C equal to D? false
+//Is C not equal to D? true
+//Is C greater than or equal to D? true
+//Is C less than or equal to D? false
+
 
 
 
