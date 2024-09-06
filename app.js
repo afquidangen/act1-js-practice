@@ -12,9 +12,9 @@ let section = ("BSCS 2A");
 console.log("My section is " + section);
 //output: My section is BSCS 2A
 
-const food = ("takoyaki");
+const food = ("shanghai");
 console.log("My favorite food is " + food)
-//output: My favorite food is takoyaki
+//output: My favorite food is shanghai
 
 let hobbies = ["reading","writing", "listening to music"]
 console.log("My hobbies: " + hobbies)
@@ -76,6 +76,7 @@ console.log(isAbsent); //output: false
 //COMPARISON
 let c = 20;
 let d = 19;
+let e = 30;
 
 let isCGreaterThanD = c > d;
 let isCLessThanD = c < d;
@@ -83,6 +84,10 @@ let isCEqualToD = c == d;
 let isCNotEqualToD = c !== d;
 let isCGreaterThanOrEqualToD = c >= d;
 let isCLessThanOrEqualToD = c <= d;
+let isCGreaterThanE = c > e;
+let isCLessThanE = c > e;
+let isDGreaterThanE = c > e;
+let isDLessThanE = c > e;
 
 console.log("Is C greater than D?", isCGreaterThanD);
 console.log("Is C less than D?", isCLessThanD);
@@ -90,6 +95,10 @@ console.log("Is C equal to D?", isCEqualToD);
 console.log("Is C not equal to D?", isCNotEqualToD);
 console.log("Is C greater than or equal to D?", isCGreaterThanOrEqualToD);
 console.log("Is C less than or equal to D?", isCLessThanOrEqualToD);
+console.log("Is C greater than E?", isCGreaterThanE);
+console.log("Is C less than E?", isCGreaterThanE);
+console.log("Is D greater than E?", isCGreaterThanE);
+console.log("Is D less than E?", isCGreaterThanE);
 
 //output:
 //Is C greater than D? true
@@ -98,7 +107,10 @@ console.log("Is C less than or equal to D?", isCLessThanOrEqualToD);
 //Is C not equal to D? true
 //Is C greater than or equal to D? true
 //Is C less than or equal to D? false
-
+//Is C greater than E? false
+//Is C less than E? false
+//Is D greater than E? false
+//Is D less than E? false
 
 
 
